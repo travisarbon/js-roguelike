@@ -1,0 +1,41 @@
+$text-and-canvas-color: #e9e9e9;
+$background-color: #ba6358;
+$status-menu-background: #8c4a43;
+
+body{
+  color: $text-and-canvas-color;
+  background-color: $background-color
+}
+
+#content{
+  width: 1200px;
+  margin: auto;
+
+  button{
+    color: black;
+  }
+
+  .status-menu{
+    float: right;
+    margin-left: 0px;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: $status-menu-background;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5px;
+  }
+
+}
+
+canvas{
+  margin: auto;
+  margin-right: 0px;
+  margin-top: 15px;
+  width: 1000px;
+  height: 600px;
+  background-color: $text-and-canvas-color;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #000000;
+  position: relative;
+  border-radius: 5px;
+}
